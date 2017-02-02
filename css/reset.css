@@ -28,29 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-img {
-  width: 150px;
-  text-align: center;
-}
-h1{
-  text-align: center; /* Alineación */
-}
 body {
 	line-height: 1;
-  font-family: 'Open Sans', sans-serif, arial;
-  background-image: url("../images/noisy-texture-100x100-o0-d66-c-d12c60-t0.png");
 }
-p{
-  line-height: 2.5rem; /* Interlineado */
-}
-strong{
-  text-transform: uppercase; /* Minúsculas, capitalizar, ...*/
-}
-
-a{
-  text-decoration: none; /* Subrayado, tachado, ... */
-}
-
 ol, ul {
 	list-style: none;
 }
