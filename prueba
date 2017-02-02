@@ -1,0 +1,17 @@
+<h1>encabezado</h1>
+<h1> Encabezado1</h1>
+<h2> Encabezado2</h2>
+<p> Parrafo<br></br> aqui se escribe lo que quieras
+  <ul>
+    <li>tomates</li> <br></br>
+    <li>lechugas</li> <br></br>
+    <li>patatas</li>
+  </ul>
+  <ol> primer caracter <br></br>
+     segundo <br></br>
+     tercero
+  </ol>
+</p>
+<em>cursiva</em>
+<br></br>
+<strong>negrita</strong>
