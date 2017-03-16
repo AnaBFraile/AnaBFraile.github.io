@@ -8,82 +8,144 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-  <h1 class="text-center">Ana Belén Fraile Marciel</h1>
-  <p>
-    <img src="images/ana.jpg" class="img-responsive" alt="Foto de Ana" align="left" id="photo">
-    <strong>Informacion de contacto</strong><br>
-    Dirección: C/Sofía 177-I 3F 28022 Madrid<br>
-    Teléfono: 618913317<br>
-    Correo electrónico: anabelen_fraile@yahoo.com<br>
-  <h3><strong>Perfiles en las redes</strong></h3>
-  <!--ahora le meto un hipervinculo-->
-  <p>
-    <a href="https://www.facebook.com/profile.php?id=100003650988820">Facebook</a><br>
-    <a href="https://www.linkedin.com/feed/">Linkedin</a><br>
-    <a href="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=19176958789724130763">Infojobs</a>
-  </p>
-</p>
-  <!--esto mete la linea de separacion-->
-  <hr>
-  <h2>Experiencia profesional</h2>
-  <!--ahora le meto una tabla-->
-  <!--hay que meter primero la fila y despues las celdas de cada fila, tr y td-->
-  <table class="table table-bordered">
-    <tr class="danger">
-      <td><strong>Empresa</strong></td>
-      <td><strong>Cargo</strong></td>
-      <td><strong>Fecha</strong></td>
-      <td><strong>Tareas</strong></td>
-    </tr>
-    <tr>
-      <td>El Corte Inglés</td>
-      <td>Asistente de ventas</td>
-      <td>Agosto 2015 - Actualmente</td>
-      <td>Atención directa, Tareas de caja, Gestión almacenes</td>
-    </tr>
-  </table>
-  <hr>
-  <h2>Habilidades y conocimientos</h2>
-  <ul>
-    <li><strong>Software GIS: </strong>ArcGIS, Qgis, gvSIG</li>
-    <li><strong>Microsoft office: </strong>Word, Excel, Powerpoint</li>
-    <li><strong>Diseño asistido por ordenador: </strong>MicroStation, Adobe Illustrator</li>
-    <li><strong>Conocimientos básicos de programación: </strong>Javascript, Python, HTML5, CSS3, Visual Basic</li>
-    <li><strong>Programas vinculados a la infraestructura de datos espaciales: </strong>CatMDEdit</li>
-    <li><strong>Software de fotogrametría y teledetección: </strong>Image Master, Taller Fotogramétrico, Digi21, Aerotri, SOV</li>
-  </ul>
-  <hr>
-  <h2>Educación y formación</h2>
-  <table class="table table-bordered">
-    <tr class="danger">
-      <td><strong>Organismo</strong></td>
-      <td><strong>Titulación</strong></td>
-      <td><strong>Fecha finalización</strong></td>
-    </tr>
-    <tr>
-      <td>ESRI España</td>
-      <td>Máster Sistemas de Información Geografica</td>
-      <td>Actualmente</td>
-    </tr>
-    <tr>
-      <td>Universidad Politécnica Madrid</td>
-      <td>Grado en Ing. Geomática y Topografía</td>
-      <td>Julio 2015</td>
-    </tr>
-    <tr>
-      <td>Centro de Estudios CEAC</td>
-      <td>Curso de Decoración e Interiorismo</td>
-      <td>Actualmente</td>
-    </tr>
-  </table>
-  <hr>
-  <h2>Formación complementaria</h2>
-  <ul>
-    <li>MOOC Introducción a la programación. Descubre el lenguaje de la era digital.<br> Fundación Telefónica. Duración aprox. 30h (agosto 2016)</li>
-    <li>Curso de GIS aplicado al medio rural y agrícola <br> Título Propio de Formación Continua de la Universidad Politécnica de Madrid. Duración aprox. 36h (noviembre 2014).</li>
-    <li>Curso de Iniciación a los Sistemas de Información Geográfica (GIS) <br> Título Propio de Formación Continua de la Universidad Politécnica de Madrid. Duración aprox. 48h (julio 2014).</li>
-  </ul>
+<!-- Menú superior -->
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- Cambiar por tu nombre -->
+      <a class="navbar-brand" href="#">Ana Belén Fraile Marciel</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Modificar esta lista con las secciones de tu curriculum -->
+        <li class="active"><a href="#Experiencia">Experiencia profesional</a></li>
+        <li><a href="#Habilidades">Habilidades y conocimientos</a></li>
+        <li><a href="#Educacion">Educación y formación</a></li>
+        <li><a href="#FormacionComple">Formación complementaria</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <!-- Añade aquí el contenido que hayas hecho hasta ahora de tu curriculum -->
+  <div class="container">
+    <img src="images/ana.jpg" class="img-responsive" alt="Foto de Ana" id="photo">
+    <div class="container">
+      <div id="info">
+        <strong>Informacion de contacto</strong><br>
+        Dirección: C/Sofía 177-I 3F 28022 Madrid<br>
+        Teléfono: 618913317<br>
+        Correo electrónico: anabelen_fraile@yahoo.com<br>
+        <div id="perfiles">
+          <h3><strong>Perfiles en las redes</strong></h3>
+          <!--ahora le meto un hipervinculo-->
+          <a href="https://www.facebook.com/profile.php?id=100003650988820">Facebook</a><br>
+          <a href="https://www.linkedin.com/feed/">Linkedin</a><br>
+          <a href="https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=19176958789724130763">Infojobs</a>
+        </div>
+      </div>
+    </div>
+    <!--esto mete la linea de separacion-->
+    <hr>
+
+    <div id="Experiencia">
+      <h2>Experiencia profesional</h2>
+      <!--ahora le meto una tabla-->
+      <!--hay que meter primero la fila y despues las celdas de cada fila, tr y td-->
+      <table class="table table-bordered">
+        <tr class="danger">
+          <td><strong>Empresa</strong></td>
+          <td><strong>Cargo</strong></td>
+          <td><strong>Fecha</strong></td>
+          <td><strong>Tareas</strong></td>
+        </tr>
+        <tr>
+          <td>El Corte Inglés</td>
+          <td>Asistente de ventas</td>
+          <td>Agosto 2015 - Actualmente</td>
+          <td>Atención directa, Tareas de caja, Gestión almacenes</td>
+        </tr>
+      </table>
+    </div>
+    <hr>
+    <div id="Habilidades">
+      <h2>Habilidades y conocimientos</h2>
+      <ul>
+        <li><strong>Software GIS: </strong>ArcGIS, Qgis, gvSIG</li>
+        <li><strong>Microsoft office: </strong>Word, Excel, Powerpoint</li>
+        <li><strong>Diseño asistido por ordenador: </strong>MicroStation, Adobe Illustrator</li>
+        <li><strong>Conocimientos básicos de programación: </strong>Javascript, Python, HTML5, CSS3, Visual Basic</li>
+        <li><strong>Programas vinculados a la infraestructura de datos espaciales: </strong>CatMDEdit</li>
+        <li><strong>Software de fotogrametría y teledetección: </strong>Image Master, Taller Fotogramétrico, Digi21, Aerotri, SOV</li>
+      </ul>
+    </div>
+    <hr>
+    <div id="Educacion">
+      <h2>Educación y formación</h2>
+      <table class="table table-bordered">
+        <tr class="danger">
+          <td><strong>Organismo</strong></td>
+          <td><strong>Titulación</strong></td>
+          <td><strong>Fecha finalización</strong></td>
+        </tr>
+        <tr>
+          <td>ESRI España</td>
+          <td>Máster Sistemas de Información Geografica</td>
+          <td>Actualmente</td>
+        </tr>
+        <tr>
+          <td>Universidad Politécnica Madrid</td>
+          <td>Grado en Ing. Geomática y Topografía</td>
+          <td>Julio 2015</td>
+        </tr>
+        <tr>
+          <td>Centro de Estudios CEAC</td>
+          <td>Curso de Decoración e Interiorismo</td>
+          <td>Actualmente</td>
+        </tr>
+      </table>
+    </div>
+    <hr>
+    <div class="container">
+      <button id="fadeOutButton">Ocultar formación complemetaria</button>
+      <button id="fadeInButton">Ver formación complementaria</button>
+
+      <div id="fadeTarget">
+
+        <div id="FormacionComple">
+          <h2>Formación complementaria</h2>
+          <ul>
+            <li>MOOC Introducción a la programación. Descubre el lenguaje de la era digital.<br> Fundación Telefónica. Duración aprox. 30h (agosto 2016)</li>
+            <li>Curso de GIS aplicado al medio rural y agrícola <br> Título Propio de Formación Continua de la Universidad Politécnica de Madrid. Duración aprox. 36h (noviembre 2014).</li>
+            <li>Curso de Iniciación a los Sistemas de Información Geográfica (GIS) <br> Título Propio de Formación Continua de la Universidad Politécnica de Madrid. Duración aprox. 48h (julio 2014).</li>
+          </ul>
+        </div>
+      </div>
+      <!-- load dojo and provide config via data attribute -->
+      <script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js" data-dojo-config="async: true, isDebug: true"></script>
+      <script>
+      require(["dojo/_base/fx", "dojo/on", "dojo/dom", "dojo/domReady!"], function(fx, on, dom) {
+        var fadeOutButton = dom.byId("fadeOutButton"),
+        fadeInButton = dom.byId("fadeInButton"),
+        fadeTarget = dom.byId("fadeTarget");
+        on(fadeOutButton, "click", function(evt){
+          fx.fadeOut({ node: fadeTarget }).play();
+        });
+        on(fadeInButton, "click", function(evt){
+          fx.fadeIn({ node: fadeTarget }).play();
+        });
+      });
+      </script>
+    </div>
+  </div>
   <p>
     <a href="https://validator.w3.org/nu/#textarea" target="_blank">
       <img style="border:0;width:88px;height:31px"
@@ -97,5 +159,6 @@
       alt="Valid CSS!" />
     </a>
   </p>
-</body>
+</div>
+
 </html>
